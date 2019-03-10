@@ -4,3 +4,8 @@
   在"git push -u origin master"时出现了“Updates were rejected because the tip of your current branch is behind...”的错误。
   利用“ git pull origin master”命令显示“refusing to merge unrelated histories”，仍未解决。
   利用“git branch [name]”建立新分支，利用“git push -u origin [name]”提交成功。
+
+20190310 日志：
+  用"git pull --rebase origin master"将本地库与远程库合并后git push成功。
+  用"git add ."将demo文件添加到project文件中，利用"git commit"将文件提交到本地库。
+  用“git pull"和"git push -u origin master"成功将demo项目提交到github。
