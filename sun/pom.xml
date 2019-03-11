@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>edu.zut.cs.software</groupId>
+  <artifactId>sun</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>sun-service</module>
+  	<module>sun-web</module>
+  </modules>
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+  <dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-api</artifactId>
+  <version>2.11.2</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+  <dependency>
+  <groupId>org.apache.logging.log4j</groupId>
+  <artifactId>log4j-core</artifactId>
+  <version>2.11.2</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+  <dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-api</artifactId>
+  <version>1.7.5</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+  <dependency>
+  <groupId>org.slf4j</groupId>
+  <artifactId>slf4j-log4j12</artifactId>
+  <version>1.7.5</version>
+  </dependency>
+  <!-- ============== test begin ============== -->
+  <!-- https://mvnrepository.com/artifact/junit/junit -->
+  <dependency>
+  <!-- JUnit单元测试框架 -->
+  <groupId>junit</groupId>
+  <artifactId>junit</artifactId>
+  <version>4.12</version>
+  </dependency>
+  <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+  <dependency>
+  <!-- spring对测试框架的简单封装功能 -->
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-test</artifactId>
+  <version>5.1.5.RELEASE</version>
+  </dependency>
+  </dependencies>
+  </project>
