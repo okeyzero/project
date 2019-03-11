@@ -9,3 +9,8 @@
   用"git pull --rebase origin master"将本地库与远程库合并后git push成功。
   用"git add ."将demo文件添加到project文件中，利用"git commit"将文件提交到本地库。
   用“git pull"和"git push -u origin master"成功将demo项目提交到github。
+  
+20190311 日志：
+  成功在sun项目下建立了service和web等项目，下了相应的架包，建立了测试类。
+  在建一些项目后发现有红叉和感叹号等问题，在检查错误后发现build path中jre版本，java compiler版本，project facets中java版本
+  没有统一，还有架包下载失败，删除架包后重新下载，成功解决问题。 
